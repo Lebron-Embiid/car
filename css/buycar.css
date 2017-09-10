@@ -1,0 +1,437 @@
+/*我们的模式*/
+.banner{
+	margin-top: 80px;
+}
+.mymodel{
+	padding-bottom: 90px;
+}
+.mymodel .row h2 div{
+	background: #2da462 url(../images/iconimg1.png)center center no-repeat;
+}
+.advantage .row h2 div{
+	background: #2da462 url(../images/iconimg2.png)center center no-repeat;
+}
+.lease .row h2 div{
+	background: #2da462 url(../images/iconimg3.png)center center no-repeat;
+}
+.flow .row h2 div{
+	background: #2da462 url(../images/iconimg4.png)center center no-repeat;
+}
+.people .row h2 div{
+	background: #2da462 url(../images/iconimg5.png)center center no-repeat;
+}
+.car .row h2 div{
+	background: #2da462 url(../images/iconimg6.png)center center no-repeat;
+}
+.mymodel .row p{
+	font-size: 16px;
+	line-height: 28px;
+}
+.mymodel .row .left{
+	padding-left: 5%;
+	position: relative;
+}
+.mymodel .row .left img{
+	display: block;
+	width: 641px;
+	height: 356px;
+}
+.mymodel .row .right img{
+	display: block;
+	width:723px;
+	height: 401px;
+}
+.mymodel .row .line{
+	width:100%;
+	position: absolute;
+	right: 15px;
+	bottom: -45px;
+	height: 45px;
+	background: #FFD236;
+}
+.mymodel .row .right{
+	padding-right: 0;
+}
+.mymodel .row .right img{
+	display: block;
+	width:100%;
+}
+.mymodel .row .center p span{
+	color:#2ea261;
+	font-weight: bold;
+}
+/*我们的优势*/
+.advantage{
+	background: #F6F9FE;
+	padding-bottom: 70px;
+}
+.advantage .row h2{
+	margin-bottom: 50px;
+}
+.advantage .row .box div img{
+	margin:0 auto;
+}
+.advantage .box div h4,p{
+	text-align: center;
+}
+.advantage .box div h4{
+	font-size: 18px;
+	font-weight: bold;
+}
+/*以租代购*/
+.lease .row h2 span{
+	color:#ffe011;
+	margin:0 20px;
+	display: inline-block;
+}
+.lease .list-group .list-group-item{
+	height: 118px;
+	padding: 0;
+	border-radius: 0;
+	margin-bottom: 3px;
+}
+.lease .list-group .list-group-item .font-left{
+	float: left;
+	width: 25%;
+	height: 118px;
+	background: #D7D7D7;
+}
+.lease .list-group .list-group-item .font-left h5{
+	font-size: 1em;
+	text-align: center;
+	line-height: 96px;
+}
+.lease .list-group .list-group-item .font-right{
+	background: #EAEAEA;
+	width:75%;
+	height: 118px;
+	float: right;
+}
+.lease .list-group .list-group-item .font-right p{
+	width:100%;
+	font-size: 1em;
+	text-align: left;
+	margin-top: 3em;
+	padding-left: 0.75em;
+}
+.lease .bank:last-child .list-group .list-group-item .font-right.process p{
+	margin-top: 0;
+}
+.lease .bank{
+	border: 1px solid #BFBFBF;
+	padding: 0;
+	height: 778px;
+	margin-right: 3%;
+}
+.lease .bank h3{
+	font-size: 1.75em;
+	text-align: center;
+	font-weight: bold;
+	line-height: 50px;
+	background: #EAEAEA;
+    margin: 0 0 2px;
+}
+.lease .bank.active{
+	color:#fff;
+}
+.lease .bank.active h3{
+	background: #2DA462;
+}
+.lease .bank.active .list-group .list-group-item .font-left{
+	background: #2DA462;
+}
+.lease .bank.active .list-group .list-group-item .font-right{
+	background: #69C391;
+}
+.lease .bank.active{
+	border:1px solid #DADDDB;
+	-webkit-box-shadow: 1px -2px 20px #2DA462;
+	-moz-box-shadow: 1px -2px 20px #2DA462;
+	-ms-box-shadow: 1px -2px 20px #2DA462;
+	-o-box-shadow: 1px -2px 20px #2DA462;
+	box-shadow: 1px -2px 20px #2DA462;
+}
+/*购车流程*/
+.flow{
+	background: #F6F9FE;
+	margin-top: 70px;
+	padding-bottom: 30px;
+}
+.flow .row .box > div div{
+	width:82px;
+	height: 82px;
+	margin:0 auto 10px;
+}
+.flow .row .box > div:first-child div{
+	background: #2DA462 url(../images/car1.png) center center no-repeat;	
+}
+.flow .row .box > div:nth-child(3) div{
+	background: #2DA462 url(../images/car2.png) center center no-repeat;	
+}
+.flow .row .box > div:nth-child(5) div{
+	background: #2DA462 url(../images/car3.png) center center no-repeat;	
+}
+.flow .row .box > div:last-child div{
+	background: #2DA462 url(../images/car4.png) center center no-repeat;	
+}
+.flow .row .box > div.arrow{
+	float: left;
+	line-height: 80px;
+}
+/*适合人群*/
+.people{
+	background: #F2F2F2;
+	padding-bottom: 30px;
+}
+.people .box div{
+	position: relative;
+}
+.people .box div img{
+	position: absolute;
+	top: 0;
+	left: -5%;
+}
+.people .box div p{
+	width:100%;
+	height: 90px;
+	line-height: 90px;
+	float: left;
+	background: #fff;
+	color:#383838;
+	font-size: 1.075em;
+	font-weight: bold;
+	margin-bottom: 35px;
+	text-align: left;
+	text-indent: 80px;
+}
+/*车型推荐*/
+.car{
+	padding-bottom: 50px;
+}
+.car .row .content.active{
+	background: #2DA462;
+}
+.car .row .content{
+	padding: 0;
+	/*width:32%;*/
+	color:#fff;
+	text-indent:.7em;
+	position: relative;
+	background: #D2D2D2;
+	margin-right: 1.2em;
+}
+.car .row .content:last-child{
+	margin-right: 0;
+}
+.car .row .content .icon{
+	position: absolute;
+	left: 42%;
+	bottom: 50%;
+	display: block;
+	width:57px;
+	height: 30px;
+}
+.car .row .content:first-child img,.car .row .content:last-child img{
+	margin-top: 5em;
+}
+.car .row .content:nth-child(2){
+	padding-bottom: 1.55em;
+}
+.car .row .content:first-child .icon{
+	background: url(../images/three3.png);
+	bottom: 16.5em;
+}
+.car .row .content:nth-child(2) .icon{
+	background: url(../images/three2.png);
+	bottom: 10.75em;
+}
+.car .row .content:last-child .icon{
+	background: url(../images/three3.png);
+	bottom: 16.5em;
+}
+.car .row .content:first-child.active .icon{
+	background: url(../images/three.png);
+}
+.car .row .content:nth-child(2).active .icon{
+	-webkit-transform: rotateX(180deg);
+	-moz-transform: rotateX(180deg);
+	-ms-transform: rotateX(180deg);
+	-o-transform: rotateX(180deg);
+	transform: rotateX(180deg);
+	background: url(../images/three.png);
+	bottom: 10.75em;
+}
+.car .row .content:last-child.active .icon{
+	background: url(../images/three.png);
+	bottom: 16.5em;
+}
+.car .row .content h3{
+	margin-top: 1.2em;
+	font-size: 1.2em;
+}
+.car .row .content h6{
+	color:#F9F9F9;
+	height: 2em;
+	margin-bottom: .8em;
+	width:80%;
+	margin-left: .8em;
+	border-bottom: 1px solid #ddd;
+	text-indent:0;
+}
+.car .row .content.active h6{
+	color:#DFEEE4;
+	border-bottom: 1px solid #6EBB91;
+}
+.car .row .content h5{
+	margin-bottom: 0;
+}
+.car .row .content .month_title{
+	width: 3.5em;
+	float: left;
+}
+.car .row .content .month{
+	width:15em;
+	float: left;
+	text-indent: 0;
+	line-height: 1.4em;
+	margin-top: .5em;
+}
+
+
+@media (min-width: 992px){
+	.mymodel  .col-md-2{
+		width: 25%;
+	}
+	.mymodel  .col-md-5{
+		width: 37.5%;
+	}
+	.people .row .col-lg-5{
+		width:45%;
+		margin-left: 5%;
+	}
+	.lease .row .col-md-4{
+		width:30% !important;
+	}
+	.car .row .col-md-4{
+		width:32% !important;
+	}
+	.people .row .box .col-md-6{
+		width:45% !important;
+		margin-right: 4em;
+	}
+	.people .row div:nth-child(2),.people .row div:last-child{
+		margin-right: 0 !important;
+	}
+}
+@media (min-width:768px) and (max-width:1230px){
+	.mymodel .row p{
+		font-size: 14px !important;
+	}
+	.lease{
+		font-size: 14px;
+	}
+}
+@media (min-width:1600px){
+	.car .row .content h3{
+		font-size: 1.6em;
+	}
+	.car .row .content h6{
+		font-size: 1em;
+	}
+	.car .row .content h5{
+		font-size: 1.1em;
+	}
+	.car .row .content{
+		/*width: 31%;
+		margin-right: 2.5em;*/
+		margin:0 auto 2em;
+	}
+	.car .row .content:first-child img, .car .row .content:last-child img{
+		margin-top: 7em;
+	}
+	.car .row .content:nth-child(2){
+		padding-bottom: 3.55em
+	}	
+	.car .row .content:first-child .icon{
+		bottom: 17em;
+	}
+	.car .row .content:first-child.active .icon{
+		bottom: 17em;
+	}
+	.car .row .content:nth-child(2) .icon{
+		bottom: 14.8em;
+	}
+	.car .row .content:nth-child(2).active .icon{
+		bottom: 14.8em;
+	}
+	.car .row .content:last-child .icon{
+		bottom: 17em;
+	}
+	.car .row .content:last-child.active .icon{
+		bottom: 17em;
+	}
+	.lease .bank h3{
+		font-size: 2em;
+	}
+	.lease .list-group .list-group-item .font-left h5{
+		font-size: 1.2em;
+	}
+	.lease .list-group .list-group-item .font-right p{
+		font-size: 1.2em;
+		margin-top: 2.5em;
+	}
+	.people .box div p{
+		font-size: 1.4em;
+	}
+}
+@media (max-width:1750px){
+	.car .row .content .month_title{
+		margin-bottom: 0;
+	}
+}
+@media (max-width:992px){
+	/*.people .row ul li div{
+		margin-left: 30% !important;
+	}*/
+	.lease .row .bank{
+		margin-left: 10%;
+		margin-bottom: 2em;
+	}
+	.car .row .content{
+		/*margin-right: 0;*/
+		margin-bottom: 2em;
+		margin-left: 25%;
+	}
+	.car .row .content .icon{
+		display: none;
+	}
+	/*.car .row > div{
+		margin-left: 10%;
+	}*/
+	.flow .row .arrow{
+		display: none;
+	}
+}
+@media (max-width:766px){
+	.mymodel .row p{
+		font-size: 12px !important;
+	}
+	.people .row div{
+		padding-left: 10% !important;
+	}
+	.people .row div p{
+		font-size: 14px;		
+	}
+}
+@media (max-width:580px){
+	.mymodel .left,.mymodel .right{
+		display: none;
+	}
+	.mymodel .center{
+		width:80%;
+		margin-left: 10%;
+	}
+	.people .row ul li div p{
+		font-size: 12px;		
+	}
+}

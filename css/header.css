@@ -1,0 +1,165 @@
+/*导航*/
+*{
+	font-family: "Microsoft YaHei";
+}
+ul{
+	list-style: none;
+	overflow: hidden;
+}
+.banner{
+	margin-top: 80px;
+}
+.navbar{
+	min-height: 80px;
+	margin-bottom:0;
+	border:none;
+	background: #f9fbfe;
+}
+.navbar .container-fluid{
+	height: 80px;
+	padding-left: 90px;
+}
+.navbar-default .navbar-nav li.on a,.navbar-default .navbar-nav li:hover a{
+	color:#2da462;
+}
+.navbar .container-fluid .navbar-nav li a{
+	display: block;
+	line-height: 50px;
+	font-size: 16px;
+	background: #f9fbfe;
+}
+.navbar .container-fluid .navbar-nav{
+	margin-right: 18%;
+}
+.navbar .container-fluid .navbar-header a{
+	height: 80px;
+}
+.navbar .container-fluid .navbar-header a img{
+	margin-top: 10px;
+}
+
+/*公共样式*/
+.mymodel .row h2,.advantage .row h2,.lease .row h2,.flow .row h2,.people .row h2,.car .row h2,.download .row h2,.service .row h2,.linecar .row h2,.select .row h2,.share .row h2
+,.safe .row h2,.advantage .row h2,.gain .row h2,.one_share .row h2,.cost .row h2,.company .row h2,.partner .row h2,.natural .row h2,.process .row h2,.need .row h2,.pain .row h2,.solution .row h2,.advan .row h2,.entry .row h2{
+	color:#2ea261;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 32px;
+	margin-bottom: 30px;
+	padding-top: 30px;
+}
+.mymodel .row h2 div,.advantage .row h2 div,.lease .row h2 div,.flow .row h2 div,.people .row h2 div,.car .row h2 div,.download .row h2 div,.service .row h2 div,.linecar .row h2 div,.select .row h2 div,.share .row h2 div
+,.safe .row h2 div,.advantage .row h2 div,.gain .row h2 div,.one_share .row h2 div,.cost .row h2 div,.company .row h2 div,.partner .row h2 div,.natural .row h2 div,.process .row h2 div,.need .row h2 div,.pain .row h2 div,.solution .row h2 div,.advan .row h2 div,.entry .row h2 div{
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	vertical-align: middle;
+	border:2px solid #ffdf06;
+	margin-right: 10px;
+}
+
+/*立即下载*/
+.download{
+	overflow: hidden;
+	padding-bottom: 70px;
+}
+.download .row .box{
+	width: 30%;
+	overflow: hidden;
+	padding-bottom:5%;
+	border:1px solid #ECECEC;
+	margin-right: 3%;
+}
+.download .row .box:last-child{
+	margin-right: 0;
+	/*padding-bottom: 4em;*/
+}
+.download .row .box img{
+	display: block;
+	margin:35px auto 0;
+}
+.download .row .box.active{
+	-webkit-box-shadow: 1px -1px 5px #E5E5E5;
+	-moz-box-shadow: 1px -1px 5px #E5E5E5;
+	-ms-box-shadow: 1px -1px 5px #E5E5E5;
+	-o-box-shadow: 1px -1px 5px #E5E5E5;
+	box-shadow: 1px -1px 5px #E5E5E5;
+}
+.download .row h2 div{
+	background: #2da462 url(../images/iconimg7.png)center center no-repeat;
+}
+.navbar-toggle{
+	margin-top: 23px;
+}
+
+
+@media (min-width:1000px) and (max-width:1600px){
+	.navbar .container-fluid .navbar-nav {
+	    margin-right: 1%;
+	}
+}
+@media (min-width:768px) and (max-width:1000px){
+	.navbar .container-fluid .navbar-nav li:nth-child(5),.navbar .container-fluid .navbar-nav li:nth-child(6),.navbar .container-fluid .navbar-nav li:last-child{
+		display: none;
+	}
+	.navbar .container-fluid .navbar-nav{
+		margin-right: 0;
+	}
+	.navbar .container-fluid{
+		padding-left: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar .container-fluid{
+		padding-left: 20px;
+	}
+	.navbar .container-fluid .navbar-nav{
+		margin:0 -15px;
+	}
+	.container-fluid > .navbar-collapse{
+		margin-left: -20px;
+	}
+	#carousel-example-generic .carousel-indicators li{
+		width:15px;
+		height: 15px;
+	}
+	.carousel a.left,.carousel a.right{
+		width:30px;
+		height: 60px;
+		top:40%;
+	}
+	.introduce{
+		padding-bottom: 0 !important;
+	}
+	.introduce .row > h3{
+		font-size: 28px;
+		margin-top: 50px;
+	}
+	.introduce .row > p{
+		font-size: 14px !important;
+
+	}
+	.introduce .row ul li{
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 350px){
+	.navbar-brand{
+		padding: 15px 0;
+	}
+	#carousel-example-generic .carousel-indicators{
+		left: 56%;
+		bottom:0;
+	}
+	#carousel-example-generic .carousel-indicators li{
+		width:10px;
+		height: 10px;
+	}
+	.carousel a.left,.carousel a.right{
+		width:30px;
+		height: 50px;
+		top:30%;
+	}
+}

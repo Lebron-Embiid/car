@@ -1,0 +1,84 @@
+.carousel{
+	margin-top: 80px;
+}
+.carousel a{
+	display: block;
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    top: 43%;
+}
+.carousel a.left{
+    left: 20%;
+    background: rgba(255,255,255,.6) url(../images/banner_left.png) center center no-repeat;
+}
+.carousel a.right{
+    right: 20%;
+    background: rgba(255,255,255,.6) url(../images/banner_right.png) center center no-repeat;
+}
+.carousel-indicators li{
+	width:20px;
+	height: 20px;
+	background: #fff;
+	margin-right: 40px;
+	border:none;
+}
+.carousel-indicators .active{
+	width:20px;
+	height: 20px;
+	background: #68C48E;
+	margin-right: 40px;
+	border:none;
+}
+/*业务介绍*/
+.introduce{
+	background: #FCFCFC;
+	padding-bottom: 100px;
+}
+.introduce h3,.partner h3{
+	margin-top: 100px;
+	font-size: 36px;
+	text-align: center;
+}
+.introduce .row > p{
+	text-align: center;
+	font-size: 20px;
+	margin: 20px 0 80px 0;
+}
+.introduce .row .box{
+	overflow: hidden;
+}
+.introduce .row .box div{
+	display: block;
+	margin:0 auto 30px;
+}
+.introduce .row .box div h4{
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.introduce .row .box div p{
+	text-align: center;
+	font-size: 16px;
+}
+.introduce .row .box div img{
+	display: block;
+	margin: 0 auto;
+}
+.partner{
+	padding-bottom: 100px;
+}
+.partner h5{
+	font:bold 20px Arial ;
+	color:#b6b6b6;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.partner img{
+	display: block;
+	margin:0 auto;
+}
+.partner .row .box div{
+	height: 90px;
+	margin-bottom: 1.2em;
+}

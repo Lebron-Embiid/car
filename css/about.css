@@ -1,0 +1,265 @@
+.content_nav{
+	background: #F8FFF7;
+	height: 120px;
+}
+.content_nav ul li{
+	height: 120px;
+	line-height: 120px;
+	font-size: 22px;
+	text-align: center;
+	position: relative;
+}
+.content_nav ul li a{
+	display: block;
+	width:100%;
+	height: 120px;
+	color:#666666;
+	text-decoration: none;
+}
+.content_nav ul li.active a,.content_nav ul li:hover a{
+	color:#009140;
+}
+.content_nav ul li.active::after,.content_nav ul li:hover::after{
+	content:"";
+	width:100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	border: 5px solid #009140;
+}
+
+/*团队*/
+.team .row > h3,.intro .row > h3,.brand .row > h3,.join .row > h3,.develope .row > h3,.select .row > h3{
+	color:#333333;
+	text-align: center;
+	font-size: 2.2em;
+	margin-top: 90px;
+}
+.team .row > p,.intro .row > p,.brand .row > p,.join .row > p,.develope .row > p,.select .row > p{
+	color:#333;
+	text-align: center;
+	font-size: 1em;
+	margin-top: 20px;
+}
+.team .row > .person{
+	margin-top: 6em;
+	padding-bottom: 6em;
+}
+.team .row > .person > div:first-child{
+	margin-right: 3em;
+}
+.team .row:last-child{
+	text-align:right;
+}
+
+.team .row .person h4{
+	color:#009140;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: 1.2em 0 .9em 0;
+}
+.team .row .person h6{
+	color:#333333;
+	font-size: 1em;
+	padding-bottom: 1em;
+	position: relative;
+	margin-bottom: 1em;
+}
+.team .row .person h6::after{
+	content:"";
+	width:100%;
+	height: 1px;
+	background: #009140;
+	position: absolute;
+	bottom:0;
+	left: 0;
+}
+.team .row .person p{
+	color:#666666;
+	font-size: 0.96em;
+	line-height: 1.6em;
+	margin-bottom: 0;
+}
+
+/*企业简介*/
+.intro,.brand,.join,.develope,.select{
+	padding-bottom: 90px;
+}
+.intro .row ul,.brand .row ul{
+	padding-top: 90px;
+}
+.intro .row ul li img,.brand .row ul li img{
+	display: block;
+	margin:0 auto 40px;
+}
+.intro .row ul li h4,.brand .row ul li h4{
+	text-align: center;
+	font-size: 20px;
+	color:#666666;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.intro .row ul li p,.brand .row ul li p{
+	width:90%;
+	text-align: center;
+	margin:0 auto;
+	line-height: 26px;
+}
+
+.join .joinme{
+	width:100px;
+	height: 100px;
+	border:10px solid #D6FFE8;
+	background: #009140 url("../images/join.png") center center no-repeat;
+	margin:100px auto 500px;
+	cursor: pointer;
+}
+/*发展历程*/
+.develope .row div{
+	padding-top: 90px;
+	overflow: hidden;
+	background: url(../images/map_back.png) center -60px no-repeat;
+}
+.develope .row div img{
+	padding-left: 5%;
+}
+.develope .row div ul:first-child li:first-child{
+	margin-left: 10%;
+}
+.develope .row div ul:first-child li:nth-child(3){
+	margin-left: 0%;
+}
+.develope .row div ul:first-child li:last-child{
+	margin-left: 4%;
+}
+.develope .row div ul li p{
+	font-size: 1em;
+	color:#666666;
+}
+.develope .row div ul:first-child li{
+	margin-bottom: 30px;
+}
+.develope .row div ul:first-child{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: flex-end;
+}
+.develope .row div ul:last-child li{
+	margin-top: 30px;
+}
+.develope .row div ul:last-child li:first-child{
+	margin-left: 17%;
+}
+.develope .row div ul:last-child li:nth-child(2){
+	margin-left: 1%;
+}
+.develope .row div ul:last-child li:nth-child(3){
+	margin-left: 1%;
+}
+.develope .row div ul:last-child li:last-child{
+	margin-left: 4%;
+}
+/*门店查询*/
+.select .row p{
+	margin: 1.2em 0 5em 0;
+}
+.select .row div ul{
+	border:1px solid #CCCCCC;
+	padding: 0;
+	margin-right: 2em;
+}
+.select .row div ul li{
+	padding: 0;
+	padding-left: .8em;
+	padding-bottom: .8em;
+	border-left-width: 10px;
+	border-left-color: #F3F3F3;
+    border-left-style: solid;
+    background: #F3F3F3;
+    border-bottom: 1px solid #CCCCCC;
+}
+.select .row div ul li:last-child{
+	border-bottom: 0;
+}
+.select .row div ul li.active {
+	border-left-width: 10px;
+	border-left-color: #009140;
+    border-left-style: solid;
+    background: #fff;
+}
+.select .row div ul li h3{
+	font-size: 1.2em;
+	color:#333333;
+	width:90%;
+	line-height: 1.8em;
+	position: relative;
+}
+.select .row div ul li h5{
+	font-size: 1em;
+	color:#333;
+	width:90%;
+	line-height: 25px;
+}
+.select .row div ul li h3 span,.select .row div ul li h5 span{
+	display: block;
+	width:1.8em;
+	height: 1.8em;
+	line-height: 1.6em;
+	margin-top: .3em;
+	margin-right: .3em;
+	float: left;
+	text-align: center;
+	color:#fff;
+}
+.select .row div ul li h3 span{
+	background: url("../images/map_circle.png") center top no-repeat;	
+}
+.select .row div ul li h5 span{
+	background: url("../images/site.png") center top no-repeat;
+}
+.select .row div img{
+	display: block;
+	height: 100%;
+}
+.select .row .map{
+	width:62%;
+	/*height: 34.94em;*/
+    height: 28.4em;
+	background: url("../images/map_select.jpg") left top no-repeat;
+	background-size: 100% 100%;
+}
+
+.brand .row ul li h4{
+	font-size: 1.4em;
+}
+.brand .row ul li p{
+	font-size: .8em;
+}
+
+.banner{
+	margin-top: 80px;
+}
+@media (min-width: 1601px){
+	.select .row div ul li h3{
+		width:66%;
+	}
+	.select .row div ul li h5{
+		width: 70%;
+	}
+	.team .row .person h4{
+		font-size: 2em;
+	}
+	.team .row .person h6{
+		font-size: 1.3em;
+	}
+	.team .row .person p{
+		font-size: 1.1em;
+		line-height: 2em;
+	}
+	.brand .row ul li p{
+		font-size: 1.2em;
+	}
+}
